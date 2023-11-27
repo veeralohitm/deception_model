@@ -1,0 +1,17 @@
+{
+    "name": "Summarizer",
+    "version": "1.0.0",
+    "description": "Web page summarizer",
+    "manifest_version": 3,
+    "author": "Veera Lohit",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Web Page Summarizer"
+    },
+    "host_permissions" : [
+        "http://127.0.0.1:5000/*"
+],
+"permissions": [
+   "tabs"
+]
+}
